@@ -1,6 +1,6 @@
 const express     = require('express');
-const postsRouter = require('./routes/postsroutes.js');
-const usersRouter = require('./routes/usersroute.js');
+const postsRouter = require('./routes/posts.route.js');
+const usersRouter = require('./routes/users.route.js');
 
 const app = express();
 
